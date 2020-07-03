@@ -1,0 +1,155 @@
+<!doctype html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>JAK BOUTIQUE</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+        <link rel="stylesheet" href="../css/navmenu/styles.css">
+        <link rel="stylesheet" href="../css/portfolio.jquery.css">
+        <link rel="stylesheet" href="../css/fonticons.css">
+        <link rel="stylesheet" href="../style.css">
+        <link rel="stylesheet" href="../fonts/stylesheet.css">
+        <link rel="stylesheet" href="../css/font-awesome.min.css">
+        <link rel="stylesheet" href="../css/bootstrap.min.css">
+       
+        <link rel="stylesheet" href="../css/plugins.css" />
+
+        <link rel="stylesheet" href="../css/style.css">
+
+        <link rel="stylesheet" href="../css/responsive.css" />
+
+        <script src="../js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    </head>
+    <script type="text/javascript" src="../js/validacion.js"></script>
+    <body>
+        <nav>
+            <div class="container">
+                <div class="nav-top clearfix">
+                    <div class="logo">
+                        <a  href="../index.html" class="navbar-brand"><img src="../images/jak.png" alt="Logo" /></a>
+                    </div>
+
+                    <div class="head_top_social pull-right">
+                        <ul class="list-inline">
+                            <li><a href=""><i class="fa fa-skype"></i>J.A.K</a></li>
+                            <li><a href=""><i class="fa fa-phone"></i>04XX-XXXXX</a></li>
+                            <li class="top_socail">
+                                <a href="http://facebook.com" target="_blank"><i class="fa fa-facebook"></i></a>
+                                <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a>
+                                <a href="https://instagram.com/" target="_blank"><i class="fa fa-instagram"></i></a>
+                                <a href="https://pinterest.es/" target="_blank"><i class="fa fa-pinterest-p"></i></a>
+                            </li>
+
+                        </ul>
+                    </div>
+
+                    <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse" type="button">
+                        <span class="sr-only">Toggle navigation</span><i class="fa fa-bars"></i>
+                    </button>
+
+                </div>
+            </div>
+
+            <div class="main-nav navbar-collapse collapse">
+                <div class="container">
+                    <div class="minilogo">
+                        <a  href="" class="navbar-brand"><img src="assets/images/logo2.png" alt="Logo" /></a>
+                    </div>
+                    <ul class="nav nav-justified">
+                        <li><a href="ropa.html">ROPA</a></li>
+                        <li><a href="zapato.html">ZAPATO</a></li>
+                        <li><a href="tendencia.html">TENDENCIA</a></li>
+                        <li><a href="preguntas.html">PREGUNTAS FRECUENTES</a></li>
+                        <li><a href="info.html">INFORMACION</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <section id="home" class="home text-right">
+            <div class="overlay">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-8 col-sm-offset-4">
+                            <div class="main_home_content">
+                                <div class="single_home">
+                                    <div class="main_home wow fadeInUp" data-wow-duration="700ms">
+                                        <h1>INFORMACION</h1>
+                                        <h1 class="subtitle">DE NUESTRA EMPRESA</h1>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="preguntas" class="preguntas">
+            <div class="container">
+                <div class="row">
+                    <div class="principal_preguntas">
+                        <div class="col-sm-8 col-sm-offset-1">
+                                   <p><span class="preguntas-title"> MISION </span></p>
+                                    <p><span class="preguntas-content">Ofrecer a nuestros clientes  productos de calidad, a precios cómodos  que cumplan con sus necesidades y exigencias, abarcando sus gustos de acuerdo a su estilo de ver y vivir la vida.</span></p>
+                                   
+                                   <p><span class="preguntas-title"> VISION </span></p>
+                                    <p><span class="preguntas-content">Ser una empresa  líder y reconocida en la venta de ropa JAK, lograr también extendernos y crear  nuestras cadenas de almacenes, proporcionando cada día más un servicio de excelencia a nuestros clientes y que al mismo tiempo nos permitan competir en el mercado nacional con los mejores precios del mercado..</span></p>
+
+                                     <p><span class="preguntas-title">OBJETIVOS</span></p>
+                                    <p><span class="preguntas-content">Ofrecer ropa de mejor calidad satisfaga las  necesidades y gustos del mercado potencial, vender ropa a la moda que cumpla con los requerimientos de estilo en el segmento  del mercado.</span></p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> 
+
+        <section id="contact" class="content-section text-center">
+        <div class="contact-section">
+            <div class="container">
+              <h2>Contáctenos</h2>
+              <p>Puede contactarnos enviando un mensaje a nuestro equipo y con gusto será atendido en el menor tiempo posible.</p>
+              <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+                  <form class="form-horizontal" id="formulario" onsubmit="return valida(this)">
+                    <div class="form-group">
+                      <label for="text-name">Nombre</label>
+                      <input type="text" class="form-control" id="textn" placeholder="Juana">
+                    </div>
+                    <div class="form-group">
+                      <label for="text-email">Correo</label>
+                      <input type="email" class="form-control" id="texte" placeholder="juana@gmail.com">
+                    </div>
+                    <div class="form-group ">
+                      <label for="texto">Mensaje</label>
+                     <textarea  class="form-control" placeholder="Texto" id="texto"></textarea> 
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                  </form>
+
+                </div>
+              </div>
+            </div>
+        </div>
+      </section>
+
+
+        <footer id="footer" class="footer">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-md-12 col-sm-12">
+                        <div class="copyright_text text-center">
+                            <p class=" wow fadeInRight" data-wow-duration="1s">Hecho con <i class="fa fa-heart"></i> by <a href="http://iujo.com">Jezer Diaz</a>2018. Todos los derechos reservados</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+</body>
+</html>
